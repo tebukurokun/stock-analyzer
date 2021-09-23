@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "stock-analyzer"
+version = "0.1.0"
+description = ""
+authors = ["tebukuro <58774766+tebukurokun@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.3.3"
+pandas-datareader = "^0.10.0"
+matplotlib = "^3.4.3"
+yahoo-finance-api2 = "^0.0.12"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
