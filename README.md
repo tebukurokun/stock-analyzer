@@ -4,7 +4,14 @@
 ## Usage
 
 ```shell
+# install
 poetry install
+```
+
+```shell
+#run
+poetry shell
+python <python-file>
 ```
 
 ## references
